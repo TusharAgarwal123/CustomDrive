@@ -1,0 +1,83 @@
+
+#header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#header button{
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#header button:hover{
+    transform: scale(1.05);
+}
+
+#container{
+    margin-top: 10px;
+    border: 1px solid red;
+    padding: 10px;
+     display: flex;   /* it will keep content horizontally */
+}
+
+#divBreadCrumb{
+
+    border: 1px solid blue;
+    display: flex;
+    margin-top: 10px;
+}
+
+.path{
+    background-color: gray;
+    cursor: pointer;
+    border-right: 2px solid black;
+    padding: 10px;
+}
+.path:hover{
+    background-color: white;
+    color: blue;
+    text-decoration: underline;
+}
+
+.folder{
+    background-color:teal;
+    height: 100px;
+    width: 120px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.folder:hover{
+    transform: scale(1.01);
+}
+/* #myButton1{
+
+  background-color: azure;
+  width: 200px;
+  margin-left: 250px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+#myButton1:hover{
+
+   transform: scale(1.01);
+  
+  } */
+
+.folder [action]{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.folder div[purpose=name]{
+    margin-top: 50px;
+    color: white;
+}

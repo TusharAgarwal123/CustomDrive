@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>My First Frontend Prpject </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- contains button and more  -->
+    <div id="header">
+        <button id="myButton1">Add Folder</button>
+        <button id="myTextFile">Add Text File</button>
+    </div>
+
+
+    <!-- creating breadcrumb -->
+    <!-- it will show where we are -->
+    <div id="divBreadCrumb">
+        <a class="path" fid="-1">Root</a>
+    </div>
+
+    <!--it will contain folders and files.-->
+    <div id="container">
+
+    </div>
+
+    <!--to show the app on the pop up.-->
+    <div id="app"></div>
+
+    <template id="myTemplate">
+
+
+        <div class="folder" type="folder" fid="" pid="">
+
+            <!--action and purpose are attribute created by us -->
+            <span action="rename">Rename</span>
+            <span action="delete">Delete</span>
+            <span action="view">View</span>
+            <div purpose="name"></div>
+
+        </div>
+        <a class="path"></a>
+
+
+    </template>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
